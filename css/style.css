@@ -60,6 +60,88 @@ body{
 
 }
 
+.main{
+    margin: auto;
+    margin-left: 15%;
+}
+
+.container-main-img{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1100px;
+
+
+}
+
+.container-img{
+    margin-bottom: 0;
+    transition: transform 0.5s ease;
+}
+
+
+.container-img-bottle{
+    margin-top: -150px;
+    transition: transform 0.5s ease ;
+}
+
+.container-img-bottle:hover{
+    transform: rotate(20deg);
+}
+
+.container-img-brown{
+    margin-top: -60px;
+    transition: transform 0.5s ease;
+}
+
+.container-img-brown:hover {
+    transform: translateY(20px);
+
+}
+
+.container-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.container-img-note{
+    margin-top: -170px;
+    transition: all 0.5s ease;
+}
+
+.container-img-note:hover{
+    opacity: 0.5;
+    transform: translateX(30px);
+}
+
+.container-img-chair{
+    margin-top: -50px;
+    transition: transform 0.5s ease;
+}
+
+.container-img-chair:hover{
+    transform: scale(1.4);
+}
+
+
+.container-img-apple{
+    margin-top: -92px;
+    transition: transform 0.5s ease;
+}
+
+.container-img-apple:hover{
+    transform: rotate(-30deg);
+}
+
+
+
+
+
+
+
 
 
 
