@@ -10,11 +10,13 @@ html{
 body{
     margin: 0;
     padding-top: 20px;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .page{
     max-height: 100vh;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -172,7 +174,39 @@ body{
 }
 
 
+@media (max-width:1024px){
 
+    body{
+        overflow: hidden;
+    }
+
+
+    .container-img{
+        width: 260px;
+    }
+
+    .container-img-brown{
+        width: 260px;
+        height: 360px;
+    }
+
+    .container-img-apple{
+        width: 260px;
+
+    }
+
+    .main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer{
+        margin-right: 0;
+        width: 100%;
+    }
+
+
+}
 
 
 
