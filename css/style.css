@@ -9,7 +9,7 @@ html{
 
 body{
     margin: 0;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .page{
@@ -135,6 +135,55 @@ body{
 .container-img-apple:hover{
     transform: rotate(-30deg);
 }
+
+
+.footer{
+  margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/footer.png);
+    background-color: rgb(25, 189, 154, 0.7);
+    position: relative;
+    background-size: cover;
+
+}
+
+
+.button{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    border-radius: 20px;
+    border-color: #fff;
+    background-color: rgb(240, 248, 255, 0.2);
+    background-size: cover;
+    transition: all 0.5s ease;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7eb790;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
